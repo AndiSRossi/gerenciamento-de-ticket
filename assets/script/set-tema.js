@@ -6,7 +6,7 @@ function setTema(tema) {
     body.style.color = "#000";
   } else {
     body.style.backgroundImage = 'url("../assets/css/img/dark-bg.jpg")';
-    body.style.color = "#fff";
+    body.style.color = "#000";
   }
 
   localStorage.setItem('tema', tema);
@@ -20,7 +20,7 @@ function setTemaIndex(tema) {
     body.style.color = "#000";
   } else {
     body.style.backgroundImage = 'url("assets/css/img/dark-bg.jpg")';
-    body.style.color = "#fff";
+    body.style.color = "#000";
   }
 
   localStorage.setItem('tema', tema);
@@ -29,7 +29,6 @@ function setTemaIndex(tema) {
 window.addEventListener('DOMContentLoaded', () => {
   let temaSalvo = localStorage.getItem('tema');
 
-  // Se não existir tema salvo, define como claro e salva no localStorage
   if (!temaSalvo) {
     temaSalvo = 'claro';
     localStorage.setItem('tema', temaSalvo);
