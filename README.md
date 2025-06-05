@@ -1,11 +1,23 @@
-# gerenciamento-de-ticket
-Sistema de Cadastro de Clientes e Gerenciamento de Tickets Este projeto tem como objetivo colocar em prática meus estudos nas tecnologias HTML, CSS, Bootstrap, JavaScript e PHP, desenvolvendo um sistema básico para:
 
+🎫 Gerenciamento de Tickets
+🚀 Sobre o Projeto
+Sistema básico para Cadastro de Clientes e Gerenciamento de Tickets, desenvolvido para aplicar conhecimentos em tecnologias web como HTML, CSS, Bootstrap, JavaScript e PHP.
+
+📋 Funcionalidades (Etapa 1)
 Cadastro de clientes
 
 Criação e gerenciamento de tickets
 
-🚀 Tecnologias utilizadas (Etapa 1) HTML5
+Interface responsiva e amigável
+
+Validação básica de dados
+
+Código organizado com componentes reutilizáveis
+
+Sem uso de banco de dados (dados temporários)
+
+🛠️ Tecnologias Utilizadas
+HTML5
 
 CSS3
 
@@ -13,28 +25,37 @@ Bootstrap 5
 
 JavaScript
 
-PHP (sem banco de dados, inicialmente)
+PHP (sem banco de dados inicialmente)
 
-📌 Objetivo Criar um sistema funcional e visualmente agradável para o gerenciamento básico de clientes e tickets, focando em:
+🎯 Objetivos do Projeto
+Desenvolver um sistema funcional para gerenciamento básico de clientes e tickets
 
-Estruturação de formulários
+Estruturar formulários com validação
 
-Validação de dados
+Criar uma interface responsiva que funcione em diferentes dispositivos
 
-Interface responsiva
+Manter o código organizado e reutilizável para facilitar manutenção e expansão
 
-Organização de código e componentes reutilizáveis
+🔮 Próximas Etapas
+Integração com banco de dados (MySQL) para persistência dos dados
 
-🛠️ Próximas etapas Integração com banco de dados (MySQL)
+Controle de acesso por níveis de permissão (ex: admin, suporte, leitura)
 
-Persistência dos dados de clientes, tickets e usuários
+Implementação de diferentes tipos de usuários com permissões específicas
 
-Controle de acesso por níveis de permissão
+Refatoração da interface usando React para melhorar a experiência do usuário
 
-Implementar diferentes tipos de usuários (ex: admin, suporte, leitura)
+Criação de uma API REST com PHP para integração com front-end React
 
-Otimização e refatoração com React
+💡 Como Usar
+Clone este repositório
 
-Substituir partes da interface por componentes em React
+Abra o projeto em um servidor local (ex: XAMPP, MAMP)
 
-Criar uma API com PHP para integração com o front-end em React
+Acesse a página principal para cadastrar clientes e criar tickets
+
+Utilize o sistema para gerenciar tickets de forma simples e rápida
+
+🤝 Contribuição
+Contribuições são bem-vindas!
+Se você quiser ajudar, abra uma issue ou envie um pull request.
