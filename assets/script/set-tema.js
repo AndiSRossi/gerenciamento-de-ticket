@@ -45,7 +45,6 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// Dropdown com submenu funcional
 document.querySelectorAll('.dropdown-submenu > a').forEach(function (element) {
   element.addEventListener('click', function (e) {
     e.preventDefault();
@@ -57,20 +56,17 @@ document.querySelectorAll('.dropdown-submenu > a').forEach(function (element) {
       submenu.classList.toggle('show');
     }
 
-    // Fecha outros submenus abertos
     document.querySelectorAll('.dropdown-submenu .dropdown-menu').forEach(function (el) {
       if (el !== submenu) el.classList.remove('show');
     });
   });
 });
 
-// Fecha os submenus se clicar fora
 window.addEventListener('click', function () {
   document.querySelectorAll('.dropdown-submenu .dropdown-menu').forEach(function (el) {
     el.classList.remove('show');
   });
 });
-// Fecha os submenus se clicar fora do dropdown
 document.addEventListener('click', function (event) {
   const dropdowns = document.querySelectorAll('.dropdown-submenu .dropdown-menu');
   dropdowns.forEach(function (dropdown) {
