@@ -20,7 +20,8 @@
           <a class="nav-link text-white" href="#" data-pagina="/Projeto/pages/conteudo/inicio_conteudo.php">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#" data-pagina="/Projeto/pages/conteudo/clientes_conteudo.php">Clientes</a>
+          <a class="nav-link text-white" href="#"
+            data-pagina="/Projeto/pages/conteudo/clientes_conteudo.php">Clientes</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="#" data-pagina="/Projeto/pages/conteudo/tickets_conteudo.php">Tickets</a>
@@ -41,17 +42,14 @@
                 </li>
               </ul>
             </li>
-
-             <li class="dropdown-submenu">
-              <a class="dropdown-item dropdown-toggle" href="#" onclick="event.preventDefault()" >Usuario</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Editar Usuário</a></li>
-                <li><a class="dropdown-item" href="#">Criar Usuário</a></li>
-                <li><a class="dropdown-item" href="#">Mudar Senha</a></li>
-                <li><a class="dropdown-item" href="#">Verificar Usuários</a></li>
-                <li><a class="dropdown-item" href="#">Log</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link " href="#" data-pagina="/Projeto/pages/conteudo/usuarios_listagem.php">Usuários</a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="#" data-pagina="/Projeto/pages/conteudo/usuarios_log.php">Log</a>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link btn btn-danger" href="../logout.php">Sair</a>
             </li>
