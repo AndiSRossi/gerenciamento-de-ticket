@@ -8,7 +8,7 @@ $senha = $_POST['senha'] ?? '';
 
 if (valida_login($login, $senha)) {
     $_SESSION['usuario'] = $login;
-    header("Location: inicial.php#pages/conteudo/inicio_conteudo.php");
+    header("Location: pages/inicial.php#pages/conteudo/inicio_conteudo.php");
     exit();
 } else {
     header("Location: index.php?erro=1");
