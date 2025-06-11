@@ -27,11 +27,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  const paginaInicial = window.location.hash.replace("#", "") || "/Projeto/pages/conteudo/inicio_conteudo.php";
+  const BASE_PATH = window.location.origin + window.location.pathname.replace(/\/[^\/]*$/, "");
+
+
+  const paginaInicial = window.location.hash.replace("#", "") || `${BASE_PATH}/pages/conteudo/inicio_conteudo.php`;
   carregarPagina(paginaInicial);
 
   window.addEventListener("popstate", () => {
-    const pagina = window.location.hash.replace("#", "") || "/Projeto/pages/conteudo/inicio_conteudo.php";
+    const pagina = window.location.hash.replace("#", "") || `${BASE_PATH}/pages/conteudo/inicio_conteudo.php`;
     carregarPagina(pagina);
   });
 });
