@@ -1,4 +1,5 @@
 <?php
+$BASE_URL = '/';
 
 include_once "clientes_cadastrados.php";
 include_once __DIR__ . '/../../verifica_user_logado.php';
@@ -56,7 +57,8 @@ $nomesClientes = array_map(function ($c) {
                 </div>
 
                 <button type="submit" class="btn btn-success w-100 mb-2" disabled>Salvar Ticket</button>
-                <a href="visualizacao_tickts.php" class="btn btn-secondary w-100" data-pagina="/Projeto/pages/conteudo/tickets_conteudo.php">Cancelar</a>
+                <a href="visualizacao_tickts.php" class="btn btn-secondary w-100"
+                    data-pagina="<?= $BASE_URL ?>pages/conteudo/tickets_conteudo.php">Cancelar</a>
             </form>
 
             <?php if ($_SERVER['REQUEST_METHOD'] === 'POST'): ?>

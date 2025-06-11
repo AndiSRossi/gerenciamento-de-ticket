@@ -1,4 +1,5 @@
-<?php include_once __DIR__ . '/../../verifica_user_logado.php'; ?>
+<?php include_once __DIR__ . '/../../verifica_user_logado.php';
+$BASE_URL = '/'; ?>
 
 <div class="container conteudo mt-5">
     <div class="principal shadow p-4">
@@ -47,7 +48,7 @@
             <button type="button" class="btn mb-2 btn-primary w-100" disabled>Cadastrar Cliente</button>
             <a href="#">
                 <button type="button" class="btn btn-warning w-100"
-                    data-pagina="/Projeto/pages/conteudo/clientes_conteudo.php">Voltar</button>
+                    data-pagina="<?= $BASE_URL ?>pages/conteudo/clientes_conteudo.php">Voltar</button>
             </a>
         </form>
         <div id="resultado" class="mt-3"></div>
