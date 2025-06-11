@@ -1,4 +1,5 @@
-<?php include_once "clientes_cadastrados.php"; ?>
+<?php include_once "clientes_cadastrados.php"; 
+$BASE_URL = '/';?>
 
 <script>
     window.listaClientes = <?php
@@ -17,7 +18,7 @@
             <div class="row mb-4 align-items-center">
                 <div class="col-3 d-flex justify-content-start">
                     <button type="button" class="btn btn-success"
-                        data-pagina="/Projeto/pages/conteudo/cadastro_cliente.php">
+                        data-pagina="<?= $BASE_URL ?>pages/conteudo/cadastro_cliente.php">
                         Cadastrar
                     </button>
 

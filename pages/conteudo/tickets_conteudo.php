@@ -1,4 +1,5 @@
-<?php include_once "chamados_cadastrados.php"; ?>
+<?php include_once "chamados_cadastrados.php"; 
+$BASE_URL = '/';?>
 
 <div class="container mt-5">
     <div class="principal shadow p-4 rounded-3">
@@ -11,7 +12,7 @@
             <div class="row mb-4 align-items-center">
                 <div class="col-3 d-flex justify-content-start">
                     <button type="button" class="btn btn-success"
-                        data-pagina="/Projeto/pages/conteudo/cadastro_ticket.php">
+                        data-pagina="<?= $BASE_URL ?>pages/conteudo/cadastro_ticket.php">
                         Novo ticket
                     </button>
                 </div>
