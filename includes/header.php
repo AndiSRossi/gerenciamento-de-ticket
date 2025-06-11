@@ -1,3 +1,4 @@
+<?php $BASE_URL = '/'; ?>
 <nav class="navbar navbar-expand-lg fixed-top menu mb-3">
   <div class="container">
     <a class="navbar-brand text-white d-flex align-items-center" href="#">
@@ -17,14 +18,14 @@
     <div class="collapse navbar-collapse" id="menuPrincipal">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link text-white" href="#" data-pagina="/Projeto/pages/conteudo/inicio_conteudo.php">Inicio</a>
+          <a class="nav-link text-white" href="#" data-pagina="<?= $BASE_URL ?>pages/conteudo/inicio_conteudo.php">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="#"
-            data-pagina="/Projeto/pages/conteudo/clientes_conteudo.php">Clientes</a>
+            data-pagina="<?= $BASE_URL ?>pages/conteudo/clientes_conteudo.php">Clientes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#" data-pagina="/Projeto/pages/conteudo/tickets_conteudo.php">Tickets</a>
+          <a class="nav-link text-white" href="#" data-pagina="<?= $BASE_URL ?>pages/conteudo/tickets_conteudo.php">Tickets</a>
         </li>
 
         <li class="nav-item dropdown">
@@ -43,11 +44,11 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#" data-pagina="/Projeto/pages/conteudo/usuarios_listagem.php">Usuários</a>
+              <a class="nav-link " href="#" data-pagina="<?= $BASE_URL ?>pages/conteudo/usuarios_listagem.php">Usuários</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link " href="#" data-pagina="/Projeto/pages/conteudo/usuarios_log.php">Log</a>
+              <a class="nav-link " href="#" data-pagina="<?= $BASE_URL ?>pages/conteudo/usuarios_log.php">Log</a>
             </li>
 
             <li class="nav-item">
