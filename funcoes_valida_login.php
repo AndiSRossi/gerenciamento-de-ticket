@@ -1,5 +1,4 @@
 <?php 
-
 function valida_login($login, $senha) {
     $login_bd = 'admin';
     $senha_bd = 'admin';
